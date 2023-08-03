@@ -17,7 +17,7 @@ const Screen2 = ({route}) => {
   )
 }
 const styles = StyleSheet.create({
- 
+ // creating stylesheet in const styles 
       
   
   imagecontainer: {
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
       height: '100%',
       backgroundColor: 'white',
   },
-  
+
   image: {
       width: "100%",
       height: "100%",
