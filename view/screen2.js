@@ -17,7 +17,7 @@ const Screen2 = ({ route }) => {
   //console.log(imageData);
   useEffect(() => {
     setImageData(JSON.parse(clickedImage)?.cover_photo.urls.regular);
-    console.log(imageData);
+   // console.log(imageData);
   }, []);
 
   const shownextimage = async () => {
